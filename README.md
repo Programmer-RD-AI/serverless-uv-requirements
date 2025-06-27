@@ -1,7 +1,17 @@
 # serverless-uv-requirements
 
-[![npm version](https://badge.fury.io/js/serverless-uv-requirements.svg)](https://badge.fury.io/js/serverless-uv-requirements)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![YasogaN](https://socialify.git.ci/Programmer-RD-AI/serverless-uv-requirements/image?description=1&font=Source%20Code%20Pro&name=1&owner=1&theme=Auto)
+
+<div align="center">
+
+![](https://img.shields.io/github/license/Programmer-RD-AI/serverless-uv-requirements.svg?style=for-the-badge&color=blue)
+![](https://img.shields.io/github/forks/Programmer-RD-AI/serverless-uv-requirements.svg?style=for-the-badge)
+![](https://img.shields.io/github/stars/Programmer-RD-AI/serverless-uv-requirements.svg?style=for-the-badge)
+![](https://img.shields.io/github/watchers/Programmer-RD-AI/serverless-uv-requirements.svg?style=for-the-badge)
+![](https://img.shields.io/github/issues/Programmer-RD-AI/serverless-uv-requirements.svg?style=for-the-badge)
+![](https://img.shields.io/github/languages/code-size/Programmer-RD-AI/serverless-uv-requirements?style=for-the-badge)
+
+</div>
 
 Fast Python dependency resolution using [uv](https://docs.astral.sh/uv/) for Serverless Framework.
 

@@ -1,6 +1,6 @@
 {
   "name": "serverless-uv-requirements",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Blazing-fast Python dependency management using uv for Serverless Framework",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
