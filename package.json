@@ -1,6 +1,6 @@
 {
   "name": "serverless-uv-requirements",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Blazing-fast Python dependency management using uv for Serverless Framework",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -52,11 +52,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/serverless-uv-requirements.git"
+    "url": "https://github.com/Programmer-RD-AI/serverless-uv-requirements.git"
   },
-  "homepage": "https://github.com/your-username/serverless-uv-requirements#readme",
+  "homepage": "https://github.com/Programmer-RD-AI/serverless-uv-requirements#readme",
   "bugs": {
-    "url": "https://github.com/your-username/serverless-uv-requirements/issues"
+    "url": "https://github.com/Programmer-RD-AI/serverless-uv-requirements/issues"
   },
   "author": "Your Name <your.email@example.com>",
   "license": "MIT"
