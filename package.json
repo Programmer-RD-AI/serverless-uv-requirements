@@ -1,0 +1,63 @@
+{
+  "name": "serverless-uv-requirements",
+  "version": "1.0.1",
+  "description": "Blazing-fast Python dependency management using uv for Serverless Framework",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "serverless",
+    "serverless-plugin",
+    "uv",
+    "pip",
+    "requirements",
+    "python",
+    "dependencies",
+    "lambda",
+    "aws"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build && npm test",
+    "semantic-release": "semantic-release"
+  },
+  "peerDependencies": {
+    "serverless": ">=3.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.19.1",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0",
+    "rimraf": "^5.0.10",
+    "semantic-release": "^21.1.2",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/serverless-uv-requirements.git"
+  },
+  "homepage": "https://github.com/your-username/serverless-uv-requirements#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/serverless-uv-requirements/issues"
+  },
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT"
+}
